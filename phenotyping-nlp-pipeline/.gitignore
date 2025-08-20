@@ -1,3 +1,39 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.env/
+.envrc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Spacy / NLP model cache
+*.spacy
+.spacy_cache/
+
+# Logs and outputs
+logs/
+*.log
+output/
+*.csv
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# Python environment files
+.Python
+
+# System files
+.DS_Store
+Thumbs.db
