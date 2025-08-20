@@ -1,0 +1,17 @@
+# Core NLP and scientific computing
+spacy>=3.5.0,<4.0.0
+scispacy>=0.5.1
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Optional for advanced modeling and probabilistic phenotyping
+scikit-learn>=1.2.0
+
+# Additional helpers and logging
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Clinical text models - download separately in docs or post-install script
+# e.g. scispacy model: en_core_sci_sm
+
+# pinned versions help reproducibility, upgrade with caution
